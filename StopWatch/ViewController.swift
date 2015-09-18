@@ -13,9 +13,6 @@ class ViewController: UIViewController {
     var timer = NSTimer()
     let numFormatter = NSNumberFormatter()
     var time:Int = 0
-    var ms = "00"
-    var seconds = "00"
-    var minutes = "0"
 
     @IBOutlet weak var timerLabel: UILabel!
     
